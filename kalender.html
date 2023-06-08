@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Kalender</title>
+</head>
+<body>
+    
+    <header>
+        <div class="grid-item">
+            <h1><img src="img/logo-uden-catch.png" id="bronx-logo" alt="bronx-logo"> Style guide</h1>
+        </div>
+        <img src="img/bronx-baggrunds-plader.png" id="baggrund" alt="bronx-baggrunds-plader">
+    </header>
+
+    <nav>
+        <div class="btn-group">
+            <a href="farver.html" class="button">Farver</a>
+            <a href="typografi.html" class="button">Typografi</a>
+            <a href="grid.html" class="button">Grid</a>
+            <a href="knapper.html" class="button">Knapper</a>
+            <a href="bokse.html" class="button">Bokse</a>
+            <a href="navmenu.html" class="button">Navigations menu</a>
+            <a href="footer.html" class="button">Footer</a>
+            <a href="medlemsform.html" class="button">Medlemsformular</a>
+            <a href="kalender.html" class="button">Kalender</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <h1 class="side-titel">Kalender</h1>
+
+        <div class="month">      
+            <ul>
+                <li class="prev">&#10094;</li>
+                <li class="next">&#10095;</li>
+                <li><h2>Maj</h2><br><h3>2023</h3></li>
+            </ul>
+        </div>
+          
+        <ul class="weekdays">
+            <li>Man</li>
+            <li>Tir</li>
+            <li>Ons</li>
+            <li>Tor</li>
+            <li>Fre</li>
+            <li>Lør</li>
+            <li>Søn</li>
+        </ul>
+          
+        <ul class="days">  
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li><button class="active">10</button></li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <div class="boks-space"></div>
+        <p>Når man klikker på en dato åbner den det arrangement, der ligger på dagen.</p>
+        <div class="boks-space"></div>
+
+        <div class="grid-boks">
+            <div class="grid-tekst-boks2">
+                <div class="arrangement-boks-eks">
+                    <img src="img/slaystergram.png" alt="#" id="arragement-bil">
+                    <h3>Tid</h3>
+                    <p>XX/XX/XX kl. XX:XX</p>
+                    <h3>Sted</h3>
+                    <p>Bronx</p>
+                </div>
+                <div class="arrangement-boks-eks">
+                    <h3>Eksempel</h3>
+                    <p>Beskrivende test om arrangement.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <pre>
+&lt;div class="month"&gt;
+    &lt;ul&gt;
+        &lt;li class="prev"&gt;&#10094;&lt;/li&gt;
+        &lt;li class="next"&gt;&#10095;&lt;/li&gt;
+        &lt;li&gt;
+            &lt;h2&gt;Maj&lt;/h2&gt;&lt;br&gt;&lt;span style="font-size:18px&lt;h3&gt;2023&lt;/h3&gt;&lt;/span&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;ul class="weekdays"&gt;
+    &lt;li&gt;Man&lt;/li&gt;
+    &lt;li&gt;Tir&lt;/li&gt;
+    &lt;li&gt;Ons&lt;/li&gt;
+    &lt;li&gt;Tor&lt;/li&gt;
+    &lt;li&gt;Fre&lt;/li&gt;
+    &lt;li&gt;Lør&lt;/li&gt;
+    &lt;li&gt;Søn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="days"&gt;  
+    &lt;li&gt;1&lt;/li&gt;
+    &lt;li&gt;2&lt;/li&gt;
+    &lt;li&gt;3&lt;/li&gt;
+    &lt;li&gt;4&lt;/li&gt;
+    &lt;li&gt;5&lt;/li&gt;
+    &lt;li&gt;6&lt;/li&gt;
+    &lt;li&gt;7&lt;/li&gt;
+    &lt;li&gt;8&lt;/li&gt;
+    &lt;li&gt;9&lt;/li&gt;
+    &lt;li&gt;&lt;button class="active"&gt;10&lt;/button&gt;&lt;/li&gt;
+    &lt;li&gt;11&lt;/li&gt;
+    &lt;li&gt;12&lt;/li&gt;
+    &lt;li&gt;13&lt;/li&gt;
+    &lt;li&gt;14&lt;/li&gt;
+    &lt;li&gt;15&lt;/li&gt;
+    &lt;li&gt;16&lt;/li&gt;
+    &lt;li&gt;17&lt;/li&gt;
+    &lt;li&gt;18&lt;/li&gt;
+    &lt;li&gt;19&lt;/li&gt;
+    &lt;li&gt;20&lt;/li&gt;
+    &lt;li&gt;21&lt;/li&gt;
+    &lt;li&gt;22&lt;/li&gt;
+    &lt;li&gt;23&lt;/li&gt;
+    &lt;li&gt;24&lt;/li&gt;
+    &lt;li&gt;25&lt;/li&gt;
+    &lt;li&gt;26&lt;/li&gt;
+    &lt;li&gt;27&lt;/li&gt;
+    &lt;li&gt;28&lt;/li&gt;
+    &lt;li&gt;29&lt;/li&gt;
+    &lt;li&gt;30&lt;li&gt;
+    &lt;li&gt;31&lt;/li&gt;
+    &lt;li&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+
+    </main>
+</body>
+</html>

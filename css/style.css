@@ -165,7 +165,7 @@ main {
 }
 
 .side-titel {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .grid-container1 {
@@ -225,7 +225,7 @@ main {
 }
 
 .grid-boks {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 pre {
@@ -317,7 +317,6 @@ pre {
 }
 
 .boks-space {
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 

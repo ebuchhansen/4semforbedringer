@@ -13,6 +13,22 @@ body {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 250px 4fr;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    grid-template-areas: "nav" "header" "content";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 240px auto;
+  }
+  body .normalformat {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  body .mobilformat {
+    display: none;
+    justify-content: right;
+  }
+}
 
 /* Farver */
 .typo-box {

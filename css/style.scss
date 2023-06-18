@@ -18,25 +18,6 @@ body {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 250px 4fr;
 
-
-    @media only screen and (max-width: 600px) {
-        grid-template-areas:
-        'nav'
-        'header'
-        'content'
-        ;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 240px auto;
-        
-        .normalformat {
-            display: none;
-        }
-    }
-    @media only screen and (min-width: 600px) {
-        .mobilformat {
-            display: none;
-        }
-    }
 }
 
 /* Farver */
@@ -368,6 +349,10 @@ pre {
 
 .boks-space {
     margin-bottom: 30px;
+}
+
+.med-space {
+    margin-bottom: 20px;
 }
 
 .small-space {

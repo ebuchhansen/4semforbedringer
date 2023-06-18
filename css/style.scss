@@ -43,6 +43,9 @@ h2 {
     color: #000000;
 }
 
+h3 {
+    font-family: "Montserrat", sans-serif;
+}
 p {
     font: 400 15px "Montserrat", sans-serif;
 }
@@ -305,7 +308,7 @@ pre {
 }
   
 .dropdown:hover .dropbtn {
-    color: #DB9040;
+    background-color: #DB9040;
     transition: 0.4s;
 }
 
@@ -379,7 +382,7 @@ pre {
         }
 
         p {
-            padding: 20px;
+            padding: 20px 30px;
         }
     }
 
@@ -393,7 +396,7 @@ pre {
             border-bottom: 2px #FFFFFF solid;
         }
         p {
-            padding: 20px;
+            padding: 20px 30px;
             padding-bottom: 50px;
             background-color: #1c2659;
             opacity: 85%;
@@ -435,7 +438,7 @@ pre {
 }
 
 .menu-knap:hover {
-    color: #DB9040;
+    background-color: #DB9040;
 }
 
 .navbar {
